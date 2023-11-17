@@ -1,5 +1,5 @@
 <html>
-<body>
+<body bgcolor="#33b5e5">
 <?php
 /*Use of Sessions*/
  include 'connect.php';
@@ -38,7 +38,7 @@ if(isset($_POST["loginID"]) && isset($_POST["password"]) && ($_POST["password"] 
  <form action="index.html"> 
 
 
-<input type="submit" >
+<input type="submit" value="Continue"  >
 
 </form>
 </body>
