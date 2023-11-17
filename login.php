@@ -28,6 +28,10 @@ if(isset($_POST['loginID']) && isset($_POST['password']))
     }
     mysqli_close($db);
     ?>
+     <form action="index.html"> 
+
+
+<input type="submit" >
     </body>
     </html>
     
