@@ -1,5 +1,5 @@
 <html>
-<body bgcolor="#33b5e5">
+<body  bgcolor="blue">
 <?php
  include 'connect.php';
 /*Use of Sessions*/
@@ -18,8 +18,9 @@ if(isset($_POST['loginID']) && isset($_POST['password']))
     $result=mysqli_query($db,$sql);
 
      if (mysqli_num_rows($result)>0) 
+          
          {     
-          echo ("Welcome back  ".$name); 
+          ("Welcome back  ".$name);
           }
      else
      {
@@ -28,6 +29,7 @@ if(isset($_POST['loginID']) && isset($_POST['password']))
     }
     mysqli_close($db);
     ?>
+
      <form action="index.html"> 
 
 

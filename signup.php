@@ -1,5 +1,5 @@
 <html>
-<body bgcolor="#33b5e5">
+<body bgcolor="darkblue">
 <?php
 /*Use of Sessions*/
  include 'connect.php';

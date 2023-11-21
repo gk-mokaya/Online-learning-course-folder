@@ -1,23 +1,23 @@
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="course.css">
     </head>
-    <body background="kevin.png">
+    <body  background="tech 3.png">
    
     <div>
-        <div class="container2">
-            <form method="post" action="signup.php" class="details">
+        <div class="container">
+            <form method="post" action="signup.php" >
                 <p >ENTER E-MAIL</p>
-                <input type="email" name="loginID" id="details"><br>
+                <input type="email" name="loginID" class="sign" required placeholder="E-mail"><br>
                 <p>FIRST NAME</p>
-                <input type="text"name="fname" id="details"> <br>
+                <input type="text"name="fname" class="sign" required placeholder="First Name"> <br>
                 <P>PHONE NUMBER</P>
-                <input type="number" name="phone" id="details"><br>
+                <input type="tel" name="phone" class="sign" required placeholder="Phone Number" maxlength="10" minlength="10"><br>
                 <P>CREATE PASSWORD</P>
-                <input type="password" name="password" id="details" ><br>
+                <input type="password" name="password" class="sign" required placeholder="Password" minlength="8"><br>
                <P>CONFIRM YOUR PASSWORD</P>
-                <input type="password" name="confirm" id="details" ><br> <br>
-                <button type="submit" value="Sign up" id="login"> SUBMIT</button><br>
+                <input type="password" name="confirm" class="sign" required placeholder="Confirm"><br> <br>
+                <button type="submit" > SUBMIT </button><br>
             </form>
 
         </div>
