@@ -8,8 +8,8 @@ session_start();
 /*simple checking of the data*/
 if(isset($_POST['loginID']) && isset($_POST['password']))
 {
-    $username ="root";
-    $password ="";
+    $username ="ksk";
+    $password ="ksk";
     $hostname ="localhost"; 
     $database="student";
     $name=$_POST['loginID'];

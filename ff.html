@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delayed Alert Example</title>
+</head>
+<body>
+
+<h2>Click the button to trigger an alert box after 4 seconds:</h2>
+
+<button onclick="delayedAlert()">Show Delayed Alert</button>
+
+<script>
+function delayedAlert() {
+  setTimeout(function() {
+    alert("This is an alert box after 4 seconds!");
+  }, 4000); // 4000 milliseconds = 4 seconds
+}
+</script>
+
+</body>
+</html>
